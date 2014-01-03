@@ -1,4 +1,4 @@
-Retrieves the lesser of two moment values.
+Retrieves the greater of two moment values.
 
 This is the counterpart for `moment#max`.
 
