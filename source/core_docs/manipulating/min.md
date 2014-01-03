@@ -14,4 +14,6 @@ var end    = moment().endOf('week');
 var actual = moment().min(start).max(end);
 ```
 
-**Note:** `moment#min` doesn't actually mutate the moment; it simly returns the input moment if the input moment is earlier, and `this` otherwise.
+**Note:** `moment#min` doesn't actually mutate the moment; it simly returns the input moment if the input moment is __later__, and `this` otherwise.
+
+Limits the moment to a minimum of another moment value.
